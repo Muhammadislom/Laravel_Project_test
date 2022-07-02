@@ -5,9 +5,8 @@
 # Тестовая задача на Junior Laravel разработчика. Amedia Online Group
 ## Install
 1): git clone https://github.com/Muhammadislom/testProjectLaravel.git <br/>
-1.1):  cd testProjectLaravel <br />
-2): composer install <br />
-3): php artisan key:generate <br />
+2):  cd testProjectLaravel <br />
+3): composer install <br />
 4): copy .env.example .env <br />
 5): php artisan key:generate <br />
 6): open env file. <br />
