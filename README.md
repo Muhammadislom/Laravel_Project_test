@@ -4,15 +4,15 @@
 
 # Тестовая задача на Junior Laravel разработчика. Amedia Online Group
 ## Install
-[^1]: Clone Repositories | git clone https://github.com/Muhammadislom/testProjectLaravel.git. <br/>
-[^2]: composer install <br />
-[^3]: php artisan key:generate <br />
-[^4]: copy .env.example .env <br />
-[^5]: php artisan key:generate <br />
-[^6]: open env file. <br />
-[^7]: delete line 12-16 <br />
-[^8]: edit line 11 DB_CONNECTION=mysql -> DB_CONNECTION=sqlite <br />
-[^8]: php artisan serve -> DB_CONNECTION=sqlite <br />
+1): Clone Repositories | git clone https://github.com/Muhammadislom/testProjectLaravel.git. <br/>
+2): composer install <br />
+3): php artisan key:generate <br />
+4): copy .env.example .env <br />
+5): php artisan key:generate <br />
+6): open env file. <br />
+7): delete line 12-16 <br />
+8): edit line 11 DB_CONNECTION=mysql -> DB_CONNECTION=sqlite <br />
+9: php artisan serve -> DB_CONNECTION=sqlite <br />
 
 Manager: <br />
 Email: manager@gmail.com <br />
