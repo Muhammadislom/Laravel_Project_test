@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/', 'IndexController');
+Route::group(['namespace' => 'Front', 'middleware' => ['auth']], function () {
+    Route::get('/', 'IndexController')->name('home');
+    Route::post('/', 'StoreController')->name('user.store.application');
+});
+    Route::group(['namespace' => 'Manager','prefix' => 'manager', 'middleware' => ['auth', 'manager']], function () {
+    Route::get('/', 'IndexController')->name('manager');
+    Route::patch('/{application}', 'UpdateController')->name('application.update.status');
+});
