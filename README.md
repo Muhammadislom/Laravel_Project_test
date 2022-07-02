@@ -4,7 +4,8 @@
 
 # Тестовая задача на Junior Laravel разработчика. Amedia Online Group
 ## Install
-1): Clone Repositories | git clone https://github.com/Muhammadislom/testProjectLaravel.git <br/>
+1): git clone https://github.com/Muhammadislom/testProjectLaravel.git <br/>
+1.1):  cd testProjectLaravel <br />
 2): composer install <br />
 3): php artisan key:generate <br />
 4): copy .env.example .env <br />
