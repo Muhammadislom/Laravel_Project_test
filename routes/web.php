@@ -14,12 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Auth::routes();
-//Route::get('/', 'IndexController');
+//Роутеры для фронта
 Route::group(['namespace' => 'Front', 'middleware' => ['auth']], function () {
     Route::get('/', 'IndexController')->name('home');
     Route::post('/', 'StoreController')->name('user.store.application');
 });
-    Route::group(['namespace' => 'Manager','prefix' => 'manager', 'middleware' => ['auth', 'manager']], function () {
+//Роутеры для страницы manager
+Route::group(['namespace' => 'Manager', 'prefix' => 'manager', 'middleware' => ['auth', 'manager']], function () {
     Route::get('/', 'IndexController')->name('manager');
     Route::patch('/{application}', 'UpdateController')->name('application.update.status');
 });
