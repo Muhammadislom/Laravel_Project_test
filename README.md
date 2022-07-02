@@ -4,6 +4,7 @@
 
 # Тестовая задача на Junior Laravel разработчика. Amedia Online Group
 ## Install
+0): npm install
 1): git clone https://github.com/Muhammadislom/testProjectLaravel.git <br/>
 2):  cd testProjectLaravel <br />
 3): composer install <br />
