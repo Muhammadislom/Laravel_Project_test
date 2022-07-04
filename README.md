@@ -4,9 +4,8 @@
 
 # Тестовая задача на Junior Laravel разработчика. Amedia Online Group
 ## Install Guide
-0): npm install
 1): git clone https://github.com/Muhammadislom/testProjectLaravel.git <br/>
-2):  cd testProjectLaravel <br />
+2): cd testProjectLaravel and npm install<br />
 3): composer install <br />
 4): copy .env.example .env <br />
 5): php artisan key:generate <br />
