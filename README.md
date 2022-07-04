@@ -13,7 +13,7 @@
 6): open env file. <br />
 7): delete line 12-16 <br />
 8): edit line 11 DB_CONNECTION=mysql -> DB_CONNECTION=sqlite <br />
-9: php artisan serve -> DB_CONNECTION=sqlite <br />
+9): php artisan serve
 
 Manager: <br />
 Email: manager@gmail.com <br />
